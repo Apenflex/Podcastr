@@ -1,4 +1,14 @@
-<script setup></script>
+<script setup>
+useHead({
+    title: 'Podcastr',
+    meta: [
+        {
+            name: 'description',
+            content: 'Generate your podcast using AI'
+        }
+    ]
+})
+</script>
 <template>
     <main>
         <LeftSideBar />
