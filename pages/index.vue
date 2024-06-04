@@ -1,7 +1,4 @@
 <script setup></script>
-
 <template>
-    <div>
-        <div>home page</div>
-    </div>
+    <div class="text-white-1">Main page</div>
 </template>
