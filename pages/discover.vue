@@ -2,6 +2,6 @@
 
 <template>
     <div>
-        <div>discover page</div>
+        <h1 class="text-white-1">Discover</h1>
     </div>
 </template>
