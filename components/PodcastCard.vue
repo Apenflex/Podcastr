@@ -1,8 +1,8 @@
 <script setup>
 defineProps({
     podcastData: {
-        type: Array,
-        default: () => []
+        type: Object,
+        default: () => {}
     }
 })
 </script>

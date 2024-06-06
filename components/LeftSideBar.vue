@@ -1,6 +1,5 @@
 <script setup>
 const route = useRoute()
-// console.log(route.path)
 const sideBarLinks = [
     {
         imgUrl: '/icons/home.svg',
