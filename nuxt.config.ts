@@ -63,6 +63,7 @@ export default defineNuxtConfig({
         'shadcn-nuxt',
         '@nuxtjs/tailwindcss',
         '@nuxt/image',
+        '@pinia/nuxt'
     ],
     $production: {
         nitro: {
