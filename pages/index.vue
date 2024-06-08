@@ -50,10 +50,10 @@ const podcastData = [
     }
 ]
 // Does'nt work yet for nuxt 3
-// import { useConvexQuery } from "@convex-vue/core";
-// import { api } from "../convex/_generated/api";
+import { useConvexQuery } from "@convex-vue/core";
+import { api } from "../convex/_generated/api";
 
-// const { data, isLoading } = useConvexQuery(api.tasks.get, {});
+const { data, isLoading } = useConvexQuery(api.tasks.get, {});
 </script>
 <template>
     <h1 class="text-white-1">Trending podcasts</h1>
@@ -66,11 +66,11 @@ const podcastData = [
     </div>
     <div class="text-white-1">
     <!-- Does'nt work yet for nuxt 3 -->
-        <!-- <ul v-if="!isLoading">
+        <ul v-if="!isLoading">
             <li v-for="todo in data">
                 {{ todo.text }} {{ todo.isCompleted ? "☑" : "☐" }}
             </li>
         </ul>
-        <span v-else> loading... </span> -->
+        <span v-else> loading... </span>
     </div>
 </template>

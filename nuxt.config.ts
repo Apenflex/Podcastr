@@ -3,7 +3,9 @@ export default defineNuxtConfig({
     devtools: { enabled: true },
     runtimeConfig: {
         public: {
-            appHost: process.env.APP_HOST
+            appHost: process.env.APP_HOST,
+            convexUrl: process.env.CONVEX_URL,
+            clerkPublishableKey: process.env.CLERK_PUBLISHABLE_KEY,
         }
     },
     app: {
