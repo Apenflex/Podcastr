@@ -14,12 +14,3 @@ import { SignInButton, SignUpButton } from 'vue-clerk'
         </SignInButton>
     </div>
 </template>
-<style scoped>
-.fade-enter-active, .fade-leave-active {
-    transition: opacity 0.5s, transform 0.5s;
-}
-.fade-enter, .fade-leave-to {
-    opacity: 0;
-    transform: translateX(100%);
-}
-</style>
