@@ -50,7 +50,7 @@ const podcastData = [
     }
 ]
 import { useConvexQuery } from "@convex-vue/core";
-import { api } from "../convex/_generated/api";
+import { api } from "@/convex/_generated/api";
 
 const { data, isLoading } = useConvexQuery(api.tasks.get, {});
 </script>
